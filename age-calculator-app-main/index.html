@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+  <title>Age-calculator</title>
+</head>
+
+<body>
+  <h1>Welcome to javascript age calculator</h1>
+
+  <div class="date">
+    <b>Enter Your Date: <input type="date" id="DOB"></b>
+    
+   <span id="message"> </span>
+   <br>
+    <button type="submit" onclick="agecalculator()">calculate</button>
+    <h3 id="result"></h3>
+    </div>
+    
+
+<script>
+
+function agecalculator(){
+let userinput=document.getElementById("DOB").value;
+let dob =new Date(userinput);
+
+// condition.....
+
+if (userinput==null || userinput==''){
+  document.getElementById("message").innerHTML="**choose a date please";
+  return false;
+}else{
+
+  // calculate month difference from current date in time..
+
+  let month_diff =Date.now()- dob.getTime();
+
+  //convert the calculated difference in date format..
+
+  let age_dt = new Date(month_diff);
+
+  //extract year from date
+
+  let year = age_dt.getUTCFullYear();
+
+  // calculate age
+
+  let age = Math.abs(year-1970);
+
+  //display
+
+  return document.getElementById("result").innerHTML="calculated Age is : " +age + " year.  ";
+
+ 
+}
+}
+</script>
+</body>
+</html>
