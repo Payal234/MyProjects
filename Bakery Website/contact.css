@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.cakes-section{
+    background: rgba(0,0,0,0.6)url("c1.jpeg");
+        background-size: cover;
+        background-blend-mode: darken;
+        height: 900px;
+        color: white;
+}
+
+
+.nav-link{
+   margin: 10px;
+}
+
+.para1{
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    font-weight: bolder;
+
+    
+}
+
+.hr-red{
+width: 20%!important;
+}
+  
+
+.left-column{
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.right-column{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+
+.footer{
+    background-color: rgb(183, 184, 178);
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+
+
+    .mid-icon{
+        background-color: yellow;
+        color: white;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .mid-icon:hover{
+        background-color: white;
+        
+    }
+
+    .sweet-icon{
+        color: white;
+    }
+
+    .sweet-icon:hover{
+        color: yellow;
+    }
+
+    .pink-all{
+        color: rgb(208, 14, 46);
+        
+    }
+
+     /* footer */
+
+     .footer{
+        background-color: rgb(217, 10, 44);
+        box-sizing: border-box;
+        padding: 10px;
+        
+    }
+
+    .form-length{
+        width: 72%;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+.facebook{
+    background-color: rgb(241, 241, 232);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+
+    }
+
+ i{
+        color: rgb(218, 11, 45);
+}
+
+.facebook:hover{
+        background-color: rgb(225, 45, 75);
+        border-radius: 50%;
+}
+
+
+i:hover{
+        color: white;
+}

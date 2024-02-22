@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery-section{
+        background: rgba(0,0,0,0.7)url("h1.jpg");
+        background-size: cover;
+        background-blend-mode: darken;
+        height: auto;
+        color: white;
+        
+        
+    }
+    
+    .text-title{
+        margin-top: 10%;
+    }
+    
+    .nav-link{
+       margin: 10px;
+    }
+    
+    .para1{
+        font-family: 'Dancing Script', cursive;
+        font-style: italic;
+        letter-spacing: 1px;
+        font-size: 2.4rem;
+        }
+    
+    hr{
+        width: 25%;
+        
+    }
+
+    .img-section{
+        margin-top: 20%;
+    }
+
+    .section-3{
+        background: rgba(0,0,0,0.7) url("cookie.jpeg");
+        background-size: cover;
+        height: 350px;
+        background-blend-mode: darken;
+        color: white;
+        opacity: 0.8;
+        scroll-behavior: auto;
+        
+        
+    }
+    
+    
+    .para3{
+      
+            font-family: 'Dancing Script', cursive;
+            font-style: italic;
+            letter-spacing: 1px;
+            font-size: 4rem;
+            font-weight: bolder;
+            margin-top: 20px;
+        }
+
+        /* section 4 starts */
+        .section-4{
+            padding: 8%;
+        }
+        .mid-img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            
+            
+        }
+    
+    .para4{
+            font-family: 'Dancing Script', cursive;
+            font-style: italic;
+            font-size: 1.4rem;
+          margin-top: 20px;
+          font-weight: bolder;
+        }
+    
+        
+     /* footer */
+
+     .footer{
+        background-color: rgb(217, 10, 44);
+        box-sizing: border-box;
+        padding: 10px;
+        
+    }
+
+    .form-length{
+        width: 72%;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+.facebook{
+    background-color: rgb(229, 229, 191);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+i{
+        color: rgb(218, 11, 45);
+    }
+    
+    
+.facebook:hover{
+        background-color: rgb(225, 45, 75);
+        border-radius: 50%;
+    }
+
+
+
+i:hover{
+        color: white;
+    }
+     
