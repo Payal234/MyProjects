@@ -1,0 +1,70 @@
+$("document").ready(function(){
+    $("#q1").click(function(){
+      $("#a1").slideToggle("slow")
+      });
+    $("#q2").click(function(){
+      $("#a2").slideToggle("slow")
+    });
+    $("#q3").click(function(){
+      $("#a3").slideToggle("slow")
+    });
+    $("#q4").click(function(){
+      $("#a4").slideToggle("slow")
+    });
+    $("#q5").click(function(){
+      $("#a5").slideToggle("slow")
+    });
+    $("#q6").click(function(){
+      $("#a6").slideToggle("slow")
+    });
+  });
+
+  $("document").ready(function(){
+    $("#q1").click(function(){
+      $("#a2").hide("slow")
+      $("#a3").hide("slow")
+      $("#a4").hide("slow")
+      $("#a5").hide("slow")
+      $("#a6").hide("slow")
+    });
+
+    $("#q2").click(function(){
+      $("#a1").hide("slow")
+      $("#a3").hide("slow")
+      $("#a4").hide("slow")
+      $("#a5").hide("slow")
+      $("#a6").hide("slow")
+    });
+
+    $("#q3").click(function(){
+      $("#a1").hide("slow")
+      $("#a2").hide("slow")
+      $("#a4").hide("slow")
+      $("#a5").hide("slow")
+      $("#a6").hide("slow")
+    });
+
+    $("#q4").click(function(){
+      $("#a1").hide("slow")
+      $("#a3").hide("slow")
+      $("#a2").hide("slow")
+      $("#a5").hide("slow")
+      $("#a6").hide("slow")
+    });
+
+    $("#q5").click(function(){
+      $("#a1").hide("slow")
+      $("#a3").hide("slow")
+      $("#a4").hide("slow")
+      $("#a2").hide("slow")
+      $("#a6").hide("slow")
+    });
+
+    $("#q6").click(function(){
+      $("#a1").hide("slow")
+      $("#a3").hide("slow")
+      $("#a4").hide("slow")
+      $("#a5").hide("slow")
+      $("#a2").hide("slow")
+    });
+  })
